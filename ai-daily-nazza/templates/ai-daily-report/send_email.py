@@ -15,9 +15,9 @@ import re
 # Configuration
 SMTP_SERVER = "smtp.qq.com"
 SMTP_PORT = 465
-SENDER_EMAIL = "deepdata@qq.com"  # 请根据实际情况修改
-RECEIVER_EMAIL = "deepdata@qq.com"
-PASSWORD = "mkvrwuxbtatebiif"
+SENDER_EMAIL = "your-email@qq.com"      # 请修改为你的发件邮箱
+RECEIVER_EMAIL = "receiver@example.com"  # 请修改为你的收件邮箱
+PASSWORD = "your-smtp-authorization-code" # 请修改为你的SMTP授权码
 
 def extract_summary(md_path):
     """Extract key highlights from the markdown report"""
